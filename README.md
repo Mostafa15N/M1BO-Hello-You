@@ -1,5 +1,5 @@
 # Bo eind opdracht
-##Tekstbased applicatie
+## Tekstbased applicatie
 * bo_opdracht.py
 * Flowchart
 * Verhaal
