@@ -1,5 +1,4 @@
 import time
-from playsound import playsound
 answer_A = ["A", "a"]
 answer_B = ["B", "b"]
 answer_C = ["C", "c"]
@@ -134,7 +133,6 @@ def stuk_4():
     print("|      |       |      |       |         |")
     print("|      |       |O     |       |         |")
     print("|______|_______|______|_______|_________|")
-    playsound(r'C:\Users\mosta\Downloads\mixkit-fire-explosion-1343.wav')
     time.sleep(1)
     print("\n", eind_1)
     time.sleep(.5)
@@ -171,9 +169,6 @@ def stuk_6():
     print("|  |_//   \_______|________|_//   \_|   |")
     print("|____\ __//__________________\ __//_____|")
     print("|_______________________________________|")
-    from playsound import playsound
-    playsound(r'C:\Users\mosta\Downloads\gun.wav')
-    playsound(r'C:\Users\mosta\Downloads\car.wav')
     print(eind_1)
     eind()
 
@@ -197,7 +192,6 @@ def stuk_7():
     print("|   <,︻╦╤─ ҉ - -    <,︻╦╤─ ҉ - -        |")
     print("|   _/﹋\_           _/﹋\_             |")
     print("|_______________________________________|")
-    playsound(r'C:\Users\mosta\Downloads\gun.wav')
     time.sleep(1)
     print("\n[A] Je gaat naar je broertje om hem te reden")
     print("[B] Je laat je broertje achter en rent om te overleven\n")
@@ -229,7 +223,6 @@ def stuk_8():
 |   ☻   /▌   \     /\  /\               |
 |  /▌_  / \   \    _/﹋\_               |
 |_______________________________________|""")
-    playsound(r'C:\Users\mosta\Downloads\gun.wav')
     time.sleep(1)
     print("\n[A] Je komt achter het steen om je vader te zoeken ")
     print("[B] Je besluit om te wachten tot dat je vader komt. ")
@@ -263,7 +256,6 @@ def stuk_9():
     print("|       /              \                |")
     print("|      /                \               |")
     print("|_______________________________________|")
-    playsound(r'C:\Users\mosta\Downloads\gun.wav')
     time.sleep(1)
     print("\n[A] je gaat achter het steen schuilen")
     print("[B] je blijft door rennen\n")
